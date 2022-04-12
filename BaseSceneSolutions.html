@@ -9,7 +9,7 @@
 <body>
   <!-- all of our objects (lights, models, cameras need to be a a part of our scene)-->
     <a-scene>
-      <!-- AFrame uses meters as its measurement-->
+      !-- AFrame uses meters as its measurement-->
       <!-- set our camera to be at eye level-->
       <a-camera position="0 1.5 0" ><a-cursor></a-cursor></a-camera> 
       <!-- add a box to our scene. move to left, move it up to be on floor, rotate it, and set the color-->
@@ -19,7 +19,7 @@
       <!-- TASK 2: Add a point light above-->
       <a-light position="0 3 -3" type="point"></a-light>
       <!-- TASK 3: Add Walls to the scene-->
-      <a-box position = "0 5 0" scale="10 10 10" side="back" color ="gray"></a-box>
+      <a-box position <= "0 5 0" scale="10 10 10" side="back" color ="gray"></a-box>
       <!-- TASK 4: add gaze to a box in back-->
       <a-box position="0 0.5 -4" rotation="0 0 0" color="#4CC3D9"
       event-set__enter="_event: mouseenter; color: #FFFFFF"
